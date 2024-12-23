@@ -11,7 +11,7 @@ from exam_window import *
 from menu_window import *
 from time import sleep
 from random import choice, shuffle
-
+#клас для зберігання запитань
 class Question:
     def __init__(self, question, correct, incorrect_1, incorrect_2, incorrect_3):
         self.question = question
